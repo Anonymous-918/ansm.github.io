@@ -143,14 +143,14 @@ $('document').ready(function(){
 
 		$('#cake_pink').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#dj_time').fadeIn('slow');
+			$('#story').fadeIn('slow');
 		});
 	});
 
 	
  
 		
-	$('#dj_time').click(function(){
+	/*$('#dj_time').click(function(){
 		var audio = $('.song')[0];
         audio.pause();
 
@@ -200,7 +200,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
-	});
+	});*/
 	
 	$('#story').click(function(){
 		// var audio1 = $('.song1')[0];
