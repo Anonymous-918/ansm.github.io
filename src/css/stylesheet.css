@@ -1605,7 +1605,7 @@ body {
 	top:34%;
 	opacity: 1.0;
 	z-index: 9999;
-	width: 130px;
+	width: 200px;
 	height: 200px;
 }
 .message {
@@ -1643,12 +1643,12 @@ body {
 
 
 
-  controlling tablet width*/
-   @media only screen and (max-width: 720px){
+  /*controlling tablet width*/
+   /*@media only screen and (max-width: 720px){
     	.container {
     		-webkit-transform: scale(0.9);
     	}
-    }
+    }*/
 
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
