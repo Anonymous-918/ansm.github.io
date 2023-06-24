@@ -1687,16 +1687,25 @@ body {
           box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
 }
 
-/* Add this CSS code to your stylesheet */
-@media only screen and (max-width: 767px) {
-	/* Styles for screens up to 767px (e.g., mobile devices) */
-	#card {
-	  /* Modify the styles for mobile devices */
-	  position: static;
-	  display: none;
-	}
-  }
-  
+#card {
+  width: 90%;
+  margin: auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 5000px;
+          perspective: 5000px;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 
 #card h1 {
   text-align: center;
@@ -1715,34 +1724,21 @@ font-family: 'Lobster';
   font-style: italic;
 }
 
+p {
+  margin-top: 1em;
+}
 
-/* CSS styles for responsiveness */
-@media screen and (max-width: 600px) {
-	/* Styles for screens smaller than 600px */
-	.title {
-	  font-size: 5vw;
-	}
-	.description {
-	  font-size: 3vw;
-	}
-	.signed {
-	  font-size: 2vw;
-	}
-  }
-  
-  @media screen and (min-width: 601px) {
-	/* Styles for screens larger than 600px */
-	.title {
-	  font-size: 3vw;
-	}
-	.description {
-	  font-size: 1vw;
-	}
-	.signed {
-	  font-size: 1.5vw;
-	}
-  }
-  
+p:first-child {
+  margin-top: 0;
+}
+
+p.signed {
+  margin-top: 1.5em;
+  text-align: center;
+font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
+}
+
 
 #card-front {
   background-color: #ee9ca7;
@@ -1843,44 +1839,6 @@ font-family: 'Lobster';
 #card.open-fully .shadow {
   background-color: rgba(0, 0, 0, 0);
 }
-
-@media screen and (max-width: 600px) {
-	/* Styles for screens smaller than 600px */
-	#card-front h1 {
-	  font-size: 5vw;
-	}
-	#card-inside {
-	  font-size: 3vw;
-	}
-	#card-inside .wrap {
-	  padding: 1em 1.5em;
-	}
-	#card-front button {
-	  font-size: 2vw;
-	}
-  }
-  
-  @media screen and (min-width: 601px) {
-	/* Styles for screens larger than 600px */
-	#card-front h1 {
-	  font-size: 3vw;
-	}
-	#card-inside {
-	  font-size: 1.3em;
-	}
-	#card-inside .wrap {
-	  padding: 1.5em 2.5em;
-	}
-	#card-front button {
-	  font-size: 1.5vw;
-	}
-  }
-  
-  #card-front .wrap img {
-	max-width: 100%;
-	height: auto;
-  }
-  
 
 footer {
   max-width: 500px;
