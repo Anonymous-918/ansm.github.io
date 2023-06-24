@@ -1724,20 +1724,34 @@ font-family: 'Lobster';
   font-style: italic;
 }
 
-p {
-  margin-top: 1em;
-}
 
-p:first-child {
-  margin-top: 0;
-}
-
-p.signed {
-  margin-top: 1.5em;
-  text-align: center;
-font-family: 'Indie Flower', cursive;
-  font-size: 1.5em;
-}
+/* CSS styles for responsiveness */
+@media screen and (max-width: 600px) {
+	/* Styles for screens smaller than 600px */
+	.title {
+	  font-size: 5vw;
+	}
+	.description {
+	  font-size: 3vw;
+	}
+	.signed {
+	  font-size: 2vw;
+	}
+  }
+  
+  @media screen and (min-width: 601px) {
+	/* Styles for screens larger than 600px */
+	.title {
+	  font-size: 3vw;
+	}
+	.description {
+	  font-size: 1vw;
+	}
+	.signed {
+	  font-size: 1.5vw;
+	}
+  }
+  
 
 #card-front {
   background-color: #ee9ca7;
