@@ -1687,25 +1687,16 @@ body {
           box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
 }
 
-#card {
-  width: 90%;
-  margin: auto;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-perspective: 5000px;
-          perspective: 5000px;
-  -webkit-transform: translateX(-25%);
-          transform: translateX(-25%);
-  -webkit-transition: -webkit-transform 1s ease-in-out;
-  transition: -webkit-transform 1s ease-in-out;
-  transition: transform 1s ease-in-out;
-  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
+/* Add this CSS code to your stylesheet */
+@media only screen and (max-width: 767px) {
+	/* Styles for screens up to 767px (e.g., mobile devices) */
+	#card {
+	  /* Modify the styles for mobile devices */
+	  position: static;
+	  display: none;
+	}
+  }
+  
 
 #card h1 {
   text-align: center;
