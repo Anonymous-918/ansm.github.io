@@ -65,52 +65,52 @@ $('document').ready(function(){
 	});
 
 	function loopOne() {
-		var randleft = Math.floor((Math.random() * $(window).width()) + 1);
-		var randtop =  Math.floor((Math.random() * $(window).height()) + 1);
-		$('#b1').animate({left:randleft,bottom:randtop},8000,function(){
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b1').animate({left:randleft,bottom:randtop},10000,function(){
 			loopOne();
 		});
 	}
 	function loopTwo() {
-		var randleft = Math.floor((Math.random() * $(window).width()) + 1);
-		var randtop =  Math.floor((Math.random() * $(window).height()) + 1);
-		$('#b2').animate({left:randleft,bottom:randtop},8000,function(){
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b2').animate({left:randleft,bottom:randtop},10000,function(){
 			loopTwo();
 		});
 	}
 	function loopThree() {
-		var randleft = Math.floor((Math.random() * $(window).width()) + 1);
-		var randtop =  Math.floor((Math.random() * $(window).height()) + 1);
-		$('#b3').animate({left:randleft,bottom:randtop},8000,function(){
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b3').animate({left:randleft,bottom:randtop},10000,function(){
 			loopThree();
 		});
 	}
 	function loopFour() {
-		var randleft = Math.floor((Math.random() * $(window).width()) + 1);
-		var randtop =  Math.floor((Math.random() * $(window).height()) + 1);
-		$('#b4').animate({left:randleft,bottom:randtop},8000,function(){
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b4').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFour();
 		});
 	}
 	function loopFive() {
-		var randleft = Math.floor((Math.random() * $(window).width()) + 1);
-		var randtop =  Math.floor((Math.random() * $(window).height()) + 1);
-		$('#b5').animate({left:randleft,bottom:randtop},8000,function(){
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b5').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFive();
 		});
 	}
 
 	function loopSix() {
-		var randleft = Math.floor((Math.random() * $(window).width()) + 1);
-		var randtop =  Math.floor((Math.random() * $(window).height()) + 1);
-		$('#b6').animate({left:randleft,bottom:randtop},8000,function(){
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b6').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSix();
 		});
 	}
 	function loopSeven() {
-		var randleft = Math.floor((Math.random() * $(window).width()) + 1);
-		var randtop =  Math.floor((Math.random() * $(window).height()) + 1);
-		$('#b7').animate({left:randleft,bottom:randtop},8000,function(){
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSeven();
 		});
 	}
