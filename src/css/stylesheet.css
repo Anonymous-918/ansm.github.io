@@ -1665,7 +1665,7 @@ body {
 }
 
 #card, #card-front, #card-inside {
-  height: auto;
+  height: 70%;
 }
 
 .wrap {
@@ -1674,11 +1674,11 @@ body {
 }
 
 #card-front, #card-inside {
-  width: auto;
+  width: 70%;
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   position: absolute;
-  left: auto;
+  left: 70%;
 }
 
 #card-inside .wrap {
@@ -1688,7 +1688,7 @@ body {
 }
 
 #card {
-  width: auto;
+  width: 70%;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
