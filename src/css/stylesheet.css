@@ -1665,7 +1665,7 @@ body {
 }
 
 #card, #card-front, #card-inside {
-  height: 90%;
+  height: auto;
 }
 
 .wrap {
@@ -1674,11 +1674,11 @@ body {
 }
 
 #card-front, #card-inside {
-  width: 90%;
+  width: auto;
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   position: absolute;
-  left: 90%;
+  left: auto;
 }
 
 #card-inside .wrap {
@@ -1688,7 +1688,7 @@ body {
 }
 
 #card {
-  width: 90%;
+  width: auto;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -1717,8 +1717,8 @@ body {
 }
 
 #card-inside {
-  font-size: 1.3em;
-  line-height: 1.4;
+  font-size: 24px;
+  line-height: normal;
 font-family: 'Lobster';
   color: #331717;
   font-style: italic;
@@ -1736,7 +1736,7 @@ p.signed {
   margin-top: 1.5em;
   text-align: center;
 font-family: 'Indie Flower', cursive;
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 
