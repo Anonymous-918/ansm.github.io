@@ -1575,7 +1575,7 @@ body {
 	top:50%;
 	opacity: 1.0;
 	z-index: 9999;
-	width: 20%;
+	width: 13%;
 	height: 20%;
 }
 
@@ -1665,7 +1665,7 @@ body {
 }
 
 #card, #card-front, #card-inside {
-  height: 70%;
+  height: 90%;
 }
 
 .wrap {
@@ -1674,11 +1674,11 @@ body {
 }
 
 #card-front, #card-inside {
-  width: 70%;
+  width: 40%;
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   position: absolute;
-  left: 70%;
+  left: 50%;
 }
 
 #card-inside .wrap {
@@ -1688,7 +1688,7 @@ body {
 }
 
 #card {
-  width: 70%;
+  width: 90%;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -1717,8 +1717,8 @@ body {
 }
 
 #card-inside {
-  font-size: 24px;
-  line-height: normal;
+  font-size: 70px;
+  line-height: 1.4;
 font-family: 'Lobster';
   color: #331717;
   font-style: italic;
@@ -1736,7 +1736,7 @@ p.signed {
   margin-top: 1.5em;
   text-align: center;
 font-family: 'Indie Flower', cursive;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 
