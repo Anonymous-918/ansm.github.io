@@ -1665,7 +1665,7 @@ body {
 }
 
 #card, #card-front, #card-inside {
-  height: 60%;
+  height: 75%;
 }
 
 .wrap {
@@ -1688,7 +1688,7 @@ body {
 }
 
 #card {
-  width: 60%;
+  width: 75%;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
